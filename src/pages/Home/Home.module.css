@@ -1,0 +1,129 @@
+.page {
+  height: 100%;
+}
+
+@media (min-width: 1200px) {
+  .page {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+  }
+}
+
+.container {
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+.imageSrc {
+  height: 70px;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .imageSrc {
+    height: 114px;
+    width: 496px;
+  }
+}
+
+.title {
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.title span {
+  color: #B3F3F8;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 36px;
+  }
+}
+
+.desc {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .desc {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .desc {
+    font-size: 24px;
+  }
+}
+
+.form {
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 960px;
+}
+
+.formTitle {
+  color: #B3F3F8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .formTitle {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .formTitle {
+    font-size: 24px;
+  }
+}
+
+.formGroup {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .formGroup {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+}
+
+.inputLabel {
+  margin-top: 30px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .label {
+    text-align: center;
+  }
+}

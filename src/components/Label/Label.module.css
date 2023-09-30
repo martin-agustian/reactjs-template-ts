@@ -1,0 +1,23 @@
+.label {
+  color: #FFF;
+  display: block;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .label {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .label {
+    font-size: 24px;
+  }
+}
