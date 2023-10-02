@@ -6,14 +6,14 @@ type initialState = {
 
 const initialState = {
   titlePage: "",
-};
+}
 
 export const appSlice = createSlice({
   name: "app",
-  initialState,
+  initialState: initialState,
   reducers: {
     setTitlePage: (state, action: PayloadAction<string>) => {
-      state.titlePage = "Bricks - " + action.payload;
+      state.titlePage = "Website Name - " + action.payload;
     },
   },
 });

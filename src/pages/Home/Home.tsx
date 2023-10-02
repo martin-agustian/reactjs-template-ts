@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 // styles
 import styles from "./Home.module.css";
 // assets
-import bricksSVG from "assets/images/bricks.svg";
+import logoSVG from "assets/images/logo.svg";
 // api
 import UserAPI from "apis/User.api";
 // redux
@@ -71,14 +71,16 @@ function Home() {
 		<div className={styles.page}>
 			<Container className={styles.container}>
 				<div className={styles.image}>
-					<img className={styles.imageSrc} src={bricksSVG} />
+					<img className={styles.imageSrc} src={logoSVG} />
 				</div>
 				<div className={styles.title}>
-					Powering <span>Your</span> Gaming & Esports <span>Dreams</span>
+					Title <span>Title Span</span> ....
 				</div>
 				<div className={styles.desc}>
-					We connecting you to the best talent, jobs, and tournament within
-					Esport & Gaming Industry
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
+					recusandae laborum amet officiis ratione quasi nam consequuntur quia,
+					reprehenderit sint quos ipsam, maxime architecto asperiores quod
+					blanditiis magni cum vero!
 				</div>
 				<div className={styles.form}>
 					<div className={styles.formTitle}>Be our Early Adopters</div>

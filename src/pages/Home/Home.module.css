@@ -19,14 +19,14 @@
 }
 
 .imageSrc {
-  height: 70px;
-  width: 100%;
+  height: auto;
+  width: 200px;
 }
 
 @media (min-width: 1200px) {
   .imageSrc {
-    height: 114px;
-    width: 496px;
+    height: auto;
+    width: 314px;
   }
 }
 
